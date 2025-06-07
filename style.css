@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif, "google font-family";
+
+}
+
+body{
+	background-color: #EAF0CE;
+}
+
+
+
+header{
+	height: 70px;
+	width: 100%;
+	background-color: #4991fd;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+}
+
+nav, .endMenu, .icons{
+	width: 300px;
+}
+
+nav ul, .endMenu ul, .icons ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+nav ul a, .endMenu ul a, .icons ul a{
+	text-decoration: none;
+	color: white; 
+}
+
+.logo img{
+	height: 50px;
+	width: 100%;
+	padding-top: 5px; 
+}
+
+
+
+content{
+	background-color: #3586ff; 
+}
+
+
+
+
+
+.cont1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.imgC{
+	width: 100%;
+}
+
+.imgs1{
+	width: 630px;
+}
+
+.img11{
+	width: 630px;
+}
+
+.under_img11{
+	display: flex;
+	justify-content: space-between;
+}
+
+.img12{
+	width: 290px;
+}
+
+.img13{
+	width: 330px;
+}
+
+.text1{
+	width: 600px;
+	text-align: left;
+}
+
+.title1{
+	color: #110c53;
+	font-size: 50px;
+}
+
+.text1 p{
+	font-size: 20px;
+}
+
+.line1{
+	width: 70%;
+	height: 4px;
+	background-color: #110c53;
+	margin-top: 30px;
+	margin-bottom: 50px; 
+}
+
+.buttons1{
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.clickMe{
+	width: 100px;
+	height: 40px;
+	background-color: #0c1953;
+	color: rgb(174, 255, 251);
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+}
+
+.learn{
+	width: 100px;
+	height: 40px;
+	background-color: #0c4b53;
+	color: rgb(174, 255, 251);
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+}
+
+
+
+
+
+.contact{
+	width: 500px;
+	justify-content: center;
+	margin-left: 70px;
+}
+
+.fc, .tarea{
+	width: 400px;
+	height: 40px;
+	margin: 20px;
+	border-radius: 10px;
+	border-color: rgb(168, 167, 167);
+	padding: 10px;
+} 
+
+.tarea{
+	height: 150px;
+	text-align: center;
+}
+
+.send{
+	width: 120px;
+	height: 40px;
+	background-color: grey;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+	margin-left: 300px;
+}
+
+.gmap{
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+
+
+
+
+.contProds{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.product{
+	width: 300px;
+	border: 1px solid grey;
+	background-color: #4991fd;
+	color: rgb(231, 238, 240);
+	margin: 20px;
+}
+
+.product img{
+	width: 298px;
+	text-align: center;
+}
+
+.product p{
+	margin: 10px;
+}
+
+.plink{
+	border: 1px solid grey;
+	background-color: rgba(114, 223, 186, 0.89);
+}
+
+.plink a{
+	text-decoration: none;
+	color: black; 
+}
+
+.plink p{
+	margin: 10px;
+}
+
+
+
+
+
+.pieceh{
+	width: 100%;
+	height: 80px;
+}
+
+.buying{
+	width: 80%;
+	background-color: #0d0f58;
+	color: rgb(255, 51, 0);
+	font-size: 200px;
+	border-radius: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.button2{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.addCard{
+	width: 150px;
+	height: 40px;
+	background-color: #0c1953;
+	color: rgb(174, 255, 251);
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+}
+
+.line2{
+	width: 100%;
+	height: 4px;
+	background-color: #110c53;
+	margin-top: 30px;
+	margin-bottom: 50px; 
+}
+
+.title2{
+	color: #110c53;
+}
+
+
+
+
+
+.imgCT{
+	width: 100%;
+	margin-top: -50px;
+}
+
+
+.techtitle{
+	font-size: 50px;
+	width: 100%;
+	margin: 50px 0px 50px 50px;
+	color: #110c53;
+	text-decoration: none;
+	text-align: center;
+}
+
+.line3{
+	width: 70%;
+	height: 4px;
+	background-color: #110c53;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.techtext{
+	margin: 70px;
+}
+
+.techtext a{
+	text-decoration: none;
+	color: black;
+}
+
+.techsubtitles{
+	font-size: 30px;
+}
+
+.techsome1{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 20px 100px 100px;
+}
+
+.techimg1{
+	height: 200px;
+}
+
+.techsubtext{
+	width: 500px;
+	margin: auto;
+}
+
+
+
+
+
+.piece{
+	height: 150px;
+	width: 100%;
+}
+
+
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #3586ff;
+	padding: 20px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wave {
+	position: absolute;
+	top: -100px;
+	width: 100%;
+	height: 100px;
+	background: url("https://i.ibb.co/wQZVxxk/wave.png");
+	background-size: 1000px 100px;
+}
+
+.end{
+	width: 100%;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icons ul li img{
+	width: 40px;
+	border-radius: 10px; 
+	background-color: rgba(16, 35, 65, 0.1);
+}
